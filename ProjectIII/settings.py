@@ -4,10 +4,10 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.getenv('SECRETENV')
+SECRET_KEY = "8b9)wnj-xbs)hxw&)*#l#f7^s05+u_=affssgdhuf%%zf%8%j("
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.getenv('DEBUGENV')
+DEBUG = True
 
 
 ALLOWED_HOSTS = []

@@ -1,3 +1,7 @@
 from django.db import models
 
-# Create your models here.
+class YoutubeUrl(models.Model):
+    verification_url = models.CharField(max_length=50)
+
+    def str(self):
+        return self.verification_url
